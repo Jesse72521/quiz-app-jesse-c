@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 5000
 
 // Initialize OpenAI
 const openai = new OpenAI({
-  apiKey: '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',
+  apiKey: process.env.OPENAI_API_KEY,
 })
 
 // Middleware

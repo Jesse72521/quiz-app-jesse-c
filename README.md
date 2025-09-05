@@ -55,9 +55,19 @@ npm install --prefix client
 npm install --prefix server
 ```
 
-### 3. Run the Application
+### 3. Environment Setup
 
-The application includes a working OpenAI API key for immediate testing. No additional setup required!
+Create a `.env` file in the `server` directory with your OpenAI API key:
+
+```bash
+# server/.env
+OPENAI_API_KEY=your_openai_api_key_here
+PORT=5000
+```
+
+**Note**: You'll need an OpenAI API key to generate quiz questions.
+
+### 4. Run the Application
 
 Start both the client and server simultaneously:
 
@@ -174,4 +184,4 @@ Created for a full-stack developer position interview.
 
 ---
 
-**Note**: This application includes a working OpenAI API key for demo purposes. Ready to run immediately!
+**Note**: This application requires an OpenAI API key to generate quiz questions. Make sure to add your API key to the server environment variables before running the application.
