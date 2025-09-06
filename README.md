@@ -61,6 +61,7 @@ Create a `.env` file in the `server` directory with your OpenAI API key:
 
 ```bash
 # server/.env
+# NOTE: I have an api key I can send you - both github and openAI freaked out when I forced pushed it to the repo.
 OPENAI_API_KEY=your_openai_api_key_here
 PORT=5000
 ```
